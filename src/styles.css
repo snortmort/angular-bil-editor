@@ -1,1 +1,19 @@
 /* Add application styles & imports to this file! */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+/* Top Bar */
+
+app-top-bar {
+  width: 100%;
+  height: 68px;
+  background-color: #1976a2;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+app-top-bar h1 {
+  color: white;
+  margin: 0;
+}

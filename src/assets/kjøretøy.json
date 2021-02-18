@@ -1,0 +1,45 @@
+[
+  {
+    "type": "FLY",
+    "price": 25.99,
+    "lengde": 13,
+    "bredde": 22,
+    "land": "USA"
+  },
+  {
+    "type": "BIL",
+    "price": 9.99,
+    "lengde": 13,
+    "bredde": 22,
+    "land": "NORGE"
+  },
+  {
+    "type": "FLY",
+    "price": 2.99,
+    "lengde": 153,
+    "bredde": 22,
+    "land": "NORGE"
+  },
+  {
+    "type": "FLY",
+    "price": 25.99,
+    "lengde": 13,
+    "bredde": 232,
+    "land": "RUSSLAND"
+  },
+  {
+    "type": "BIL",
+    "price": 9.99,
+    "lengde": 213,
+    "bredde": 11,
+    "land": "DANMARK"
+  },
+  {
+    "type": "FLY",
+    "price": 2.99,
+    "lengde": 13,
+    "bredde": 2,
+    "land": "NORGE"
+  }
+
+]
