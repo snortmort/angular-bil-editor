@@ -6,18 +6,18 @@ import { RouterModule } from "@angular/router";
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
 import { TopBarComponent } from "./top-bar/top-bar.component";
-import { BilListeComponent } from "./bil-liste/bil-liste.component";
-import { FlyListeComponent } from "./fly-liste/fly-liste.component";
 import { KjoretoyService } from "./kjoretoy.service";
+import { KjoretoyListeComponent } from "./kjoretoy-liste/kjoretoy-liste.component";
+import { SmilComponent } from "./smil/smil.component";
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: "", component: FlyListeComponent },
-      { path: "fly", component: FlyListeComponent },
-      { path: "biler", component: BilListeComponent }
+      { path: "", component: SmilComponent },
+      { path: "kjoretoy", component: KjoretoyListeComponent },
+      { path: "smil", component: SmilComponent }
       // { path: "cart", component: CartComponent },
       // { path: "shipping", component: ShippingComponent }
     ])
@@ -26,8 +26,8 @@ import { KjoretoyService } from "./kjoretoy.service";
     AppComponent,
     HelloComponent,
     TopBarComponent,
-    BilListeComponent,
-    FlyListeComponent
+    KjoretoyListeComponent,
+    SmilComponent
   ],
   bootstrap: [AppComponent],
   providers: [KjoretoyService]
