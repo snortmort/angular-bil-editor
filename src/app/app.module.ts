@@ -6,7 +6,7 @@ import { RouterModule } from "@angular/router";
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
 import { TopBarComponent } from "./top-bar/top-bar.component";
-import { KjoretoyService } from "./kjoretoy.service";
+import { VehicleService } from "./vehicle.service";
 import { KjoretoyListeComponent } from "./kjoretoy-liste/kjoretoy-liste.component";
 import { NyKjoretoyComponent } from "./ny-kjoretoy/ny-kjoretoy.component";
 
@@ -30,6 +30,6 @@ import { NyKjoretoyComponent } from "./ny-kjoretoy/ny-kjoretoy.component";
     NyKjoretoyComponent
   ],
   bootstrap: [AppComponent],
-  providers: [KjoretoyService]
+  providers: [VehicleService]
 })
 export class AppModule {}
