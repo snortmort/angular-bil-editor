@@ -1,18 +1,24 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
+import { Observable, range } from "rxjs";
+import { filter, map } from "rxjs/operators";
 
 @Injectable()
 export class VehicleService {
   constructor(private http: HttpClient) {}
-  // items = [];
+  vehicles;
 
   // createVehicle(vehicle) {
   //   this.items.push(vehicle);
   // }
 
-  // getVehicle() {
-  //   return this.items;
-  // }
+  getVehicle(id) {
+    this.vehicles = this.http
+      .get("/assets/vehicles.json")
+      .pipe(map((response: Response) => response.json()));
+    console.log(this.vehicles);
+    return this.vehicles;
+  }
 
   // deleteVehicle(id) {
   //   this.items = [];

@@ -5,7 +5,7 @@
 <div *ngFor="let vehicle of vehicleList | async">
 	<span>{{ vehicle.type + ': '}}</span>
 	<span>{{ vehicle.name }}</span>
-	<button [routerLink]="'/vehicle-details'" >See details</button>
+	<button [routerLink]="['/vehicle-details', vehicle.id]" >See details</button>
 </div>
 
 <!-- [routerLink]="/vehicle-details" -->

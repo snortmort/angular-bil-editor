@@ -9,7 +9,6 @@ import { HelloComponent } from "./hello.component";
 import { TopBarComponent } from "./top-bar/top-bar.component";
 import { VehicleService } from "./vehicle.service";
 import { KjoretoyListeComponent } from "./kjoretoy-liste/kjoretoy-liste.component";
-import { NyKjoretoyComponent } from "./ny-kjoretoy/ny-kjoretoy.component";
 import { VehicleDetailComponent } from "./vehicle-detail/vehicle-detail.component";
 
 @NgModule({
@@ -20,8 +19,8 @@ import { VehicleDetailComponent } from "./vehicle-detail/vehicle-detail.componen
     RouterModule.forRoot([
       { path: "", component: KjoretoyListeComponent },
       { path: "kjoretoy", component: KjoretoyListeComponent },
-      { path: "legg-til-kjoretoy", component: NyKjoretoyComponent },
-      { path: "vehicle-details", component: VehicleDetailComponent }
+      { path: "vehicle-details/:vehicleId", component: VehicleDetailComponent },
+      { path: "vehicle-details/:vehicleId", component: VehicleDetailComponent }
       // { path: "cart", component: CartComponent },
       // { path: "shipping", component: ShippingComponent }
     ])
@@ -31,7 +30,6 @@ import { VehicleDetailComponent } from "./vehicle-detail/vehicle-detail.componen
     HelloComponent,
     TopBarComponent,
     KjoretoyListeComponent,
-    NyKjoretoyComponent,
     VehicleDetailComponent
   ],
   bootstrap: [AppComponent],
