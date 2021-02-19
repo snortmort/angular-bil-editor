@@ -19,7 +19,7 @@ export class VehicleService {
   // }
 
   getAllVehicles() {
-    return this.http.get("/assets/vehicles.json");
+    return this.http.get<any[]>("/assets/vehicles.json");
   }
   constructor(private http: HttpClient) {}
 }
