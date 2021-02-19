@@ -8,16 +8,16 @@ import { HelloComponent } from "./hello.component";
 import { TopBarComponent } from "./top-bar/top-bar.component";
 import { KjoretoyService } from "./kjoretoy.service";
 import { KjoretoyListeComponent } from "./kjoretoy-liste/kjoretoy-liste.component";
-import { SmilComponent } from "./smil/smil.component";
+import { NyKjoretoyComponent } from "./ny-kjoretoy/ny-kjoretoy.component";
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: "", component: SmilComponent },
+      { path: "", component: KjoretoyListeComponent },
       { path: "kjoretoy", component: KjoretoyListeComponent },
-      { path: "smil", component: SmilComponent }
+      { path: "legg-til-kjoretoy", component: NyKjoretoyComponent }
       // { path: "cart", component: CartComponent },
       // { path: "shipping", component: ShippingComponent }
     ])
@@ -27,7 +27,7 @@ import { SmilComponent } from "./smil/smil.component";
     HelloComponent,
     TopBarComponent,
     KjoretoyListeComponent,
-    SmilComponent
+    NyKjoretoyComponent
   ],
   bootstrap: [AppComponent],
   providers: [KjoretoyService]

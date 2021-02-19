@@ -1,6 +1,7 @@
 [
   {
     "type": "FLY",
+    "navn": "BOING",
     "price": 25.99,
     "lengde": 13,
     "bredde": 22,
@@ -8,6 +9,7 @@
   },
   {
     "type": "BIL",
+    "navn": "Leif",
     "price": 9.99,
     "lengde": 13,
     "bredde": 22,
@@ -15,6 +17,7 @@
   },
   {
     "type": "FLY",
+    "navn": "AstroBlaster",
     "price": 2.99,
     "lengde": 153,
     "bredde": 22,
@@ -22,6 +25,7 @@
   },
   {
     "type": "FLY",
+    "navn": "Flakse",
     "price": 25.99,
     "lengde": 13,
     "bredde": 232,
@@ -29,6 +33,7 @@
   },
   {
     "type": "BIL",
+    "navn": "313",
     "price": 9.99,
     "lengde": 213,
     "bredde": 11,
@@ -36,6 +41,7 @@
   },
   {
     "type": "FLY",
+    "navn": "Papir",
     "price": 2.99,
     "lengde": 13,
     "bredde": 2,
