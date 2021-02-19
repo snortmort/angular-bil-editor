@@ -14,10 +14,10 @@ export class VehicleService {
 
   getVehicle(id) {
     this.vehicles = this.http
-      .get("/assets/vehicles.json")
-      .pipe(map((response: Response) => response.json()));
+      .get("/assets/vehicles.json").subscribe(vehicle => {
+        this.myGridOptions.rowData = countries as CountryData[]
     console.log(this.vehicles);
-    return this.vehicles;
+    return this.vehicles.find(vehicle => vehicle.id === id);
   }
 
   // deleteVehicle(id) {
