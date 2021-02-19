@@ -7,7 +7,9 @@ import { VehicleService } from "../vehicle.service";
   styleUrls: ["./kjoretoy-liste.component.css"]
 })
 export class KjoretoyListeComponent implements OnInit {
-  constructor() {}
+  vehicleList = this.vehicleService.getAllVehicles();
+  constructor(private vehicleService: VehicleService) {}
 
   ngOnInit() {}
 }
+

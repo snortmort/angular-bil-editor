@@ -2,56 +2,56 @@
   {
     "id": 1,
     "type": "FLY",
-    "navn": "BOING",
+    "name": "BOING",
     "price": 25.99,
-    "lengde": 13,
-    "bredde": 22,
-    "land": "USA"
+    "length": 13,
+    "width": 22,
+    "country": "USA"
   },
   {
     "id": 2,
     "type": "BIL",
-    "navn": "Leif",
+    "name": "Leif",
     "price": 9.99,
-    "lengde": 13,
-    "bredde": 22,
-    "land": "NORGE"
+    "length": 13,
+    "width": 22,
+    "country": "NORGE"
   },
   {
     "id": 3,
     "type": "FLY",
-    "navn": "AstroBlaster",
+    "name": "AstroBlaster",
     "price": 2.99,
-    "lengde": 153,
-    "bredde": 22,
-    "land": "NORGE"
+    "length": 153,
+    "width": 22,
+    "country": "NORGE"
   },
   {
     "id": 4,
     "type": "FLY",
-    "navn": "Flakse",
+    "name": "Flakse",
     "price": 25.99,
-    "lengde": 13,
-    "bredde": 232,
-    "land": "RUSSLAND"
+    "length": 13,
+    "width": 232,
+    "country": "RUSScountry"
   },
   {
     "id": 5,
     "type": "BIL",
-    "navn": "313",
+    "name": "313",
     "price": 9.99,
-    "lengde": 213,
-    "bredde": 11,
-    "land": "DANMARK"
+    "length": 213,
+    "width": 11,
+    "country": "DANMARK"
   },
   {
     "id": 6,
     "type": "FLY",
-    "navn": "Papir",
+    "name": "Papir",
     "price": 2.99,
-    "lengde": 13,
-    "bredde": 2,
-    "land": "NORGE"
+    "length": 13,
+    "width": 2,
+    "country": "NORGE"
   }
 
 ]
