@@ -6,23 +6,18 @@ import { filter, map } from "rxjs/operators";
 @Injectable()
 export class VehicleService {
   constructor(private http: HttpClient) {}
-  vehicles;
+  // vehicles;
 
   // createVehicle(vehicle) {
   //   this.items.push(vehicle);
   // }
 
-  getVehicle(id) {
-    this.vehicles = this.http
-      .get("/assets/vehicles.json").subscribe(vehicle => {
-        this.myGridOptions.rowData = countries as CountryData[]
-    console.log(this.vehicles);
-    return this.vehicles.find(vehicle => vehicle.id === id);
-  }
-
-  // deleteVehicle(id) {
-  //   this.items = [];
-  //   return this.items;
+  // getVehicle(id) {
+  //   this.vehicles = this.http
+  //     .get("/assets/vehicles.json").subscribe(vehicle => {
+  //       this.myGridOptions.rowData = countries as CountryData[]
+  //   console.log(this.vehicles);
+  //   return this.vehicles.find(vehicle => vehicle.id === id);
   // }
 
   getAllVehicles() {

@@ -17,7 +17,7 @@ export class VehicleDetailComponent implements OnInit {
   ngOnInit() {
     const routeParams = this.route.snapshot.paramMap;
     const vehicleIdFromRoute = Number(routeParams.get("vehicleId"));
-    this.vehicle = this.vehicleService.getVehicle(vehicleIdFromRoute);
+    // this.vehicle = this.vehicleService.getVehicle(vehicleIdFromRoute);
     console.log(vehicleIdFromRoute);
     // this.vehicle = products.find(product => product.id === productIdFromRoute);
   }
