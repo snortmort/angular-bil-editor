@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "type": "FLY",
     "navn": "BOING",
     "price": 25.99,
@@ -8,6 +9,7 @@
     "land": "USA"
   },
   {
+    "id": 2,
     "type": "BIL",
     "navn": "Leif",
     "price": 9.99,
@@ -16,6 +18,7 @@
     "land": "NORGE"
   },
   {
+    "id": 3,
     "type": "FLY",
     "navn": "AstroBlaster",
     "price": 2.99,
@@ -24,6 +27,7 @@
     "land": "NORGE"
   },
   {
+    "id": 4,
     "type": "FLY",
     "navn": "Flakse",
     "price": 25.99,
@@ -32,6 +36,7 @@
     "land": "RUSSLAND"
   },
   {
+    "id": 5,
     "type": "BIL",
     "navn": "313",
     "price": 9.99,
@@ -40,6 +45,7 @@
     "land": "DANMARK"
   },
   {
+    "id": 6,
     "type": "FLY",
     "navn": "Papir",
     "price": 2.99,
